@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #f2f1df;
+  font-family: "Roboto", sans-serif;
+}
+.menu {
+  width: 700px;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+.left {
+  width: 50%;
+  height: 100vh;
+  background-color: #f2f1df;
+  color: #4a5915;
+  padding: 45px 35px;
+  position: relative;
+  z-index: 2;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo img {
+  width: 100px;
+}
+
+.left h1 {
+  position: absolute;
+  top: 55px;
+  left: 240px;
+
+  font-size: 65px;
+  color: #465b16;
+  white-space: nowrap;
+}
+
+.left h1 {
+  color: white;
+}
+
+h2 {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+.coffee-section {
+  margin-top: 60px;
+}
+.items {
+  width: 200px;
+}
+.items p {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.1em;
+  line-height: 1.55;
+}
+.image1 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image1 img {
+  width: 100%;
+  height: auto;
+}
+.matcha {
+  width: 190px;
+  height: 190px;
+  background: #e2e9c1;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.matcha img {
+  width: 190px;
+}
+.desserts {
+  margin-top: 280px;
+}
+.footer {
+  position: absolute;
+  bottom: 30px;
+  left: 35px;
+
+  color: #35470f;
+}
+
+.social {
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+
+.footer p {
+  font-size: 16px;
+}
+
+/* RIGHT SIDE */
+
+.right {
+  background-color: #4b6315;
+  color: #f2f1df;
+  padding: 40px;
+  position: relative;
+  width: 50%;
+  height: 100vh;
+  padding: 45px 35px;
+  position: relative;
+}
+
+.right::before {
+  content: "";
+  position: absolute;
+  left: -55px;
+  top: -5%;
+  width: 100px;
+  height: 110%;
+  background: #f2f1df;
+  border-radius: 50%;
+}
+.coffee {
+  width: 210px;
+  height: 210px;
+  top: 170px;
+  left: 60px;
+  background: #637b25;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.coffee img {
+  width: 350px;
+}
+
+.non-coffee {
+  position: absolute;
+  top: 400px;
+  left: 65px;
+  z-index: 5;
+}
+.non-coffee h2 {
+  font-size: 22px;
+}
+
+.dessert {
+  width: 200px;
+  height: 200px;
+  background: #637b25;
+  margin-bottom: 50px;
+  left: 60px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.dessert img {
+  width: 200px;
+}
